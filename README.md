@@ -2,6 +2,22 @@ Weather App
 
 A simple weather application that fetches real-time weather data using the OpenWeather API.
 
+## Features
+
+- Search weather by city
+- Current temperature
+- Weather description
+- Humidity
+- Wind speed
+- Responsive design
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- OpenWeather API
+
 ## Setup
 
 This project uses the OpenWeather API to fetch real-time weather data.
@@ -29,22 +45,6 @@ const apiKey = "YOUR_ACTUAL_API_KEY";
 Open `index.html` in your browser or use a local development server.
 
 You should now be able to search for weather information by city.
-
-## Features
-
-- Search weather by city
-- Current temperature
-- Weather description
-- Humidity
-- Wind speed
-- Responsive design
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- OpenWeather API
 
 ## Screenshot
 

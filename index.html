@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-card">
+        <div class="search-box">
+            <input type="text" id="city-input" placeholder="Enter city name..." autocomplete="off">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="error-message" class="hidden">City not found. Please try again!</div>
+
+        <div id="weather-body" class="hidden">
+            <div class="main-info">
+                <h2 id="location">New York, US</h2>
+                <img id="weather-icon" src="" alt="Weather Icon">
+                <h1 id="temperature">24°C</h1>
+                <p id="description">Scattered Clouds</p>
+            </div>
+            
+            <hr class="divider">
+
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="label">Humidity</span>
+                    <span id="humidity" class="value">60%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Wind Speed</span>
+                    <span id="wind-speed" class="value">5 m/s</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Feels Like</span>
+                    <span id="feels-like" class="value">26°C</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Pressure</span>
+                    <span id="pressure" class="value">1012 hPa</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+

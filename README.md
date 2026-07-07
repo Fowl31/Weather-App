@@ -2,6 +2,34 @@ Weather App
 
 A simple weather application that fetches real-time weather data using the OpenWeather API.
 
+## Setup
+
+This project uses the OpenWeather API to fetch real-time weather data.
+
+### 1. Get an API Key
+
+Create a free account at https://openweathermap.org/ and generate an API key.
+
+### 2. Add Your API Key
+
+Open `script.js` and replace:
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+with:
+
+```javascript
+const apiKey = "YOUR_ACTUAL_API_KEY";
+```
+
+### 3. Run the Project
+
+Open `index.html` in your browser or use a local development server.
+
+You should now be able to search for weather information by city.
+
 ## Features
 
 - Search weather by city

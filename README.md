@@ -4,13 +4,16 @@ A simple weather application that fetches real-time weather data using the OpenW
 
 ## Features
 
-- Search weather by city
-- Current temperature
-- Weather description
+- Search for weather by city
+- View current temperature
+- Weather description and icon
 - Humidity
 - Wind speed
+- Feels-like temperature
+- Atmospheric pressure
 - Responsive design
-
+- Error handling for invalid city names
+  
 ## Technologies Used
 
 - HTML
